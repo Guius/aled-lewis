@@ -71,7 +71,7 @@ a::before {
   left: 0;
   background-color: #fe7f7f;
   transform: scaleX(0);
-  transform-origin: top left;
+  /* transform-origin: top left; */
   transition: transform 0.3s ease;
 }
 
@@ -108,9 +108,57 @@ a:hover::before {
   border-bottom: 4px solid #fe7f7f; */
   width: 50%;
   text-align: center;
+  margin-bottom: 65px;
 }
 
 .about-text-paragraph {
   font-size: 20px;
   font-style: italic;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-container {
+  display: grid;
+  grid-template-rows: 2.5fr 1fr;
+  margin: 0 40px;
+}
+
+.service-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.service-icon-container-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 85px;
+  height: auto;
+  border-bottom: solid 4px #2d2d2dff;
+  padding: 40px 0;
+}
+
+.service-icon {
+  width: 60%;
+  height: auto;
+}
+
+.service-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.service-text {
+  /* white-space: nowrap; */
+  font-weight: 600;
 }
