@@ -502,12 +502,44 @@ svg {
 }
 
 .book-an-appointment-text-container {
-  height: 500px;
+  height: 400px;
   width: 100%;
-  padding: 0 60px;
+  padding: 0 70px 0 0;
 }
 
 .contact-me-text {
   color: white;
   text-align: end;
+}
+
+.contact-me-title {
+  margin-bottom: 50px;
+}
+
+.contact-me-text-text {
+  margin-bottom: 30px;
+}
+
+.book-an-appointment-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 80px;
+}
+
+.book-an-appointment-button {
+  background-color: #2d2d2dff;
+  cursor: pointer;
+  color: white;
+  border: white 2px solid;
+  height: 60px;
+  width: 150px;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.book-an-appointment-button:hover,
+.book-an-appointment-button:active {
+  background-color: white;
+  color: #2d2d2dff;
+  border: #2d2d2dff 2px solid;
 }
