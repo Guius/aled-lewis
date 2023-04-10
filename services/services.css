@@ -101,6 +101,7 @@ q {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+  flex-wrap: wrap;
 }
 
 .service-container {
@@ -161,6 +162,10 @@ q {
 }
 
 @media (orientation: portrait) {
+  body {
+    overflow-x: hidden;
+  }
+
   #menuToggle {
     display: block;
   }
@@ -170,7 +175,7 @@ q {
   }
 
   .about-text-title-container {
-    margin-top: 50px;
+    margin-top: 80px;
   }
 
   .top-level-nav-mobile {
@@ -179,7 +184,7 @@ q {
 
   .nav-logo-mobile {
     display: block;
-    height: 70px;
+    height: 60px;
     width: auto;
     position: absolute;
     right: 50px;
@@ -194,6 +199,11 @@ q {
   #menu {
     width: 200px !important;
     height: 90vh;
+  }
+
+  .about-text-paragraph-container {
+    width: 100%;
+    padding: 0 20px;
   }
 }
 
