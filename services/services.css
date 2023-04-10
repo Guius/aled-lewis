@@ -184,6 +184,17 @@ q {
     position: absolute;
     right: 50px;
   }
+
+  .top-level-nav-item {
+    display: block;
+    margin-bottom: 10px;
+    width: fit-content;
+  }
+
+  #menu {
+    width: 200px !important;
+    height: 90vh;
+  }
 }
 
 #menuToggle a {
