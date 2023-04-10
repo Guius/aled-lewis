@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./logo-page.css" />
+    <link rel="stylesheet" href="./services.css" />
+    <link rel="stylesheet" href="./why-choose-me.css" />
+    <link rel="stylesheet" href="./reviews.css" />
+    <link rel="stylesheet" href="./contact-me.css" />
     <script src="./script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +22,7 @@
   <body onload="currentSlide(1)">
     <div class="title-logo-page">
       <div class="title-logo-container">
-        <img src="./assets/img/full-logo.png" class="full-logo" />
+        <img src="./assets/img/Page 1-2.png" class="full-logo" />
       </div>
     </div>
 
@@ -28,6 +33,37 @@
         <img src="./assets/img/half-logo.png" class="nav-logo" />
         <a href="google.com" class="top-level-nav-item">Reviews</a>
         <a href="google.com" class="top-level-nav-item">Contact me</a>
+      </nav>
+      <nav role="top-level-nav-mobile">
+        <div id="menuToggle">
+          <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+          <input type="checkbox" />
+
+          <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+          <ul id="menu">
+            <a href="google.com" class="top-level-nav-item">About</a>
+            <a href="google.com" class="top-level-nav-item">Why choose me</a>
+            <a href="google.com" class="top-level-nav-item">Reviews</a>
+            <a href="google.com" class="top-level-nav-item">Contact me</a>
+          </ul>
+        </div>
+        <img src="./assets/img/half-logo.png" class="nav-logo-mobile" />
       </nav>
       <div class="about-text-title-container-container">
         <div class="about-text-title-container">
