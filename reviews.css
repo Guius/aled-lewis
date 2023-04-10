@@ -109,6 +109,11 @@ q {
 }
 
 @media (orientation: portrait) {
+  .reviews-section {
+    height: fit-content;
+    padding: 180px 0;
+  }
+
   .mySlides {
     padding: 0 50px;
   }

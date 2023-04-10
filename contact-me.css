@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 
+body {
+  overflow-x: none;
+}
+
 * {
   margin: 0;
   font-family: "Outfit", sans-serif;
@@ -209,14 +213,36 @@ q {
   .container {
     height: 75%;
   }
+}
 
-  @media (max-width: 700px) {
-    .card {
-      width: 140px;
-    }
+@media (max-width: 700px) {
+  .card {
+    width: 140px;
+  }
 
-    .container {
-      height: 60%;
-    }
+  .container {
+    height: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .book-an-appointment-button {
+    width: 130px;
+    margin-left: 30px;
+  }
+
+  .card {
+    width: 120px;
+  }
+
+  .container {
+    height: 50%;
+  }
+}
+
+@media (orientation: portrait) {
+  .book-an-appointment-section {
+    height: fit-content;
+    padding: 180px 20px;
   }
 }
