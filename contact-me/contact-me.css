@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  color: #2d2d2dff;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p,
+q {
+  font-size: 23px;
+}
+
+.book-an-appointment-section {
+  /* width: 100%; */
+  background-color: #2d2d2dff;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.book-an-appointment-pictures-sub-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* ANIMATED CARDS */
+.container {
+  height: 50%;
+  max-height: 500px;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  /* height: 280px; */
+  width: 200px;
+  /* The image used */
+  background-image: url("./../assets/img/boiler-1.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card-one {
+  /* The image used */
+  background-image: url("./../assets/img/boiler-1.jpeg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-two {
+  /* The image used */
+  background-image: url("./../assets/img/boiler-2.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-three {
+  /* The image used */
+  background-image: url("./../assets/img/boiler-3.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-four {
+  /* The image used */
+  background-image: url("./../assets/img/boiler-4.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.card:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+
+.book-an-appointment-text-sub-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-an-appointment-text-container {
+  height: 400px;
+  padding: 0 20px 0 0;
+}
+
+.contact-me-text {
+  color: white;
+  text-align: end;
+}
+
+.contact-me-title {
+  margin-bottom: 50px;
+}
+
+.contact-me-text-text {
+  margin-bottom: 30px;
+}
+
+.book-an-appointment-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 80px;
+}
+
+.book-an-appointment-button {
+  background-color: #2d2d2dff;
+  cursor: pointer;
+  color: white;
+  border: white 2px solid;
+  height: 60px;
+  width: 150px;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.book-an-appointment-button:hover,
+.book-an-appointment-button:active {
+  background-color: white;
+  color: #2d2d2dff;
+  border: #2d2d2dff 2px solid;
+}
+
+@media (max-width: 1100px) {
+  .book-an-appointment-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 20px 0 20px;
+    height: fit-content;
+  }
+
+  .book-an-appointment-text-sub-section {
+    order: -1;
+    padding-top: 50px;
+  }
+
+  .book-an-appointment-text-container {
+    padding: 0 0 0 0;
+  }
+
+  .container {
+    height: 75%;
+  }
+
+  @media (max-width: 700px) {
+    .card {
+      width: 140px;
+    }
+
+    .container {
+      height: 60%;
+    }
+  }
+}
