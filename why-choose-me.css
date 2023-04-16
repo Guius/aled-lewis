@@ -94,8 +94,8 @@ q {
   }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 500px) {
   .why-choose-me-section {
-    height: fit-content;
+    /* height: fit-content; */
   }
 }

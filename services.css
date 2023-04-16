@@ -17,6 +17,7 @@ q {
   width: 100%;
   background-color: white;
   height: 90vh;
+  min-height: fit-content;
   display: grid;
   /* grid-template-rows:  */
 }
@@ -219,7 +220,7 @@ q {
   }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 500px) {
   .about-page {
     height: fit-content;
   }
