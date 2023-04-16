@@ -18,21 +18,26 @@
       rel="stylesheet"
     />
     <title>Aled Lewis | Plumbing and Heating</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/half-logo.png" />
   </head>
   <body onload="currentSlide(1)">
-    <div class="title-logo-page">
+    <div class="title-logo-page" id="title-logo-page">
       <div class="title-logo-container">
         <img src="./assets/img/Page 1-2.png" class="full-logo" />
       </div>
     </div>
 
-    <div class="about-page">
+    <div class="about-page" id="about-page">
       <nav class="top-level-nav">
-        <a href="google.com" class="top-level-nav-item">About</a>
-        <a href="google.com" class="top-level-nav-item">Why choose me</a>
+        <a href="#about-page" class="top-level-nav-item">About</a>
+        <a href="#why-choose-me-section" class="top-level-nav-item"
+          >Why choose me</a
+        >
         <img src="./assets/img/half-logo.png" class="nav-logo" />
-        <a href="google.com" class="top-level-nav-item">Reviews</a>
-        <a href="google.com" class="top-level-nav-item">Contact me</a>
+        <a href="#reviews-section" class="top-level-nav-item">Reviews</a>
+        <a href="#book-an-appointment-section" class="top-level-nav-item"
+          >Contact me</a
+        >
       </nav>
       <nav role="top-level-nav-mobile">
         <div id="menuToggle">
@@ -73,11 +78,10 @@
       <div class="about-text-paragraph-container-container">
         <div class="about-text-paragraph-container">
           <p class="about-text-paragraph">
-            Hugh Lewis specialises in maintaining and repairing all oil fired
-            boilers and cookers for residential customers within Mid Wales, as
-            well as parts Shropshire, Radnorshire, Ceredigion and Gwynedd. With
-            a friendly, ethos when it comes to clients, I work flexibly to
-            minimise disruption & guarantee peace of mind.
+            Aled Lewis specialises in Oil and Natural Gas heating systems for
+            residential customers throughout Mid Wales and surrounding areas.
+            Working proactively with clients to ensure they get the best systems
+            and most up to date products, whilst catering for all budgets.
           </p>
         </div>
       </div>
@@ -85,21 +89,11 @@
         <div class="service-container">
           <div class="service-icon-container">
             <div class="service-icon-container-container">
-              <img src="./assets/icons/basin.png" class="service-icon" />
+              <img src="./assets/icons/sunny.png" class="service-icon" />
             </div>
           </div>
           <div class="service-text-container">
-            <p class="service-text">General Plumbing Services</p>
-          </div>
-        </div>
-        <div class="service-container">
-          <div class="service-icon-container">
-            <div class="service-icon-container-container">
-              <img src="./assets/icons/drop.png" class="service-icon" />
-            </div>
-          </div>
-          <div class="service-text-container">
-            <p class="service-text">General Plumbing Services</p>
+            <p class="service-text">Renewable Heating Systems</p>
           </div>
         </div>
         <div class="service-container">
@@ -109,7 +103,7 @@
             </div>
           </div>
           <div class="service-text-container">
-            <p class="service-text">General Plumbing Services</p>
+            <p class="service-text">Oil and Gas Heating Systems</p>
           </div>
         </div>
         <div class="service-container">
@@ -122,9 +116,19 @@
             <p class="service-text">General Plumbing Services</p>
           </div>
         </div>
+        <div class="service-container">
+          <div class="service-icon-container">
+            <div class="service-icon-container-container">
+              <img src="./assets/icons/wrench.png" class="service-icon" />
+            </div>
+          </div>
+          <div class="service-text-container">
+            <p class="service-text">Service and Maintenance</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="why-choose-me-section">
+    <div class="why-choose-me-section" id="why-choose-me-section">
       <div class="why-choose-me-text-sub-section">
         <div class="why-choose-me-text-title-container">
           <h2 class="why-choose-me-text-title">Why choose me</h2>
@@ -156,7 +160,7 @@
         </div>
       </div>
     </div>
-    <div class="reviews-section">
+    <div class="reviews-section" id="reviews-section">
       <div class="reviews-container">
         <div class="slideshow-container">
           <div class="mySlides">
@@ -167,18 +171,17 @@
               caused the problem and how to prevent it in the future. I highly
               recommend his services!</q
             >
-            <p class="author">Auntie Rhi</p>
+            <!-- <p class="author">Auntie Rhi</p> -->
           </div>
 
           <div class="mySlides">
             <q
-              >Aled has been my go-to plumber for years now, and I couldn't be
-              happier with his work. He's reliable, professional, and always
-              goes above and beyond to make sure I'm satisfied with the results.
-              I've recommended him to all my friends and family, and they've all
-              had the same great experience.</q
+              >Aled is my go-to plumber, and I couldn't be happier with his
+              work. He's reliable, professional, and always goes above and
+              beyond to make sure I'm satisfied with the results. I've
+              recommended him to all my friends and family.</q
             >
-            <p class="author">Jeremiah Bottocks</p>
+            <!-- <p class="author">Jeremiah Bottocks</p> -->
           </div>
 
           <div class="mySlides">
@@ -186,9 +189,9 @@
               >I recently hired Aled to install a new water heater in my home.
               He did an excellent job, and the installation was completed
               quickly and efficiently. His rates were very competitive, and he
-              even took the time to show me how to operate the new system. I
-              highly recommend Aled's services to anyone looking for a reliable
-              and professional plumber.</q
+              showed me how to operate the new system. I highly recommend Aled's
+              services to anyone looking for a reliable and professional
+              plumber.</q
             >
             <p class="author">Slumding Wallah</p>
           </div>
@@ -203,7 +206,7 @@
         </div>
       </div>
     </div>
-    <div class="book-an-appointment-section">
+    <div class="book-an-appointment-section" id="book-an-appointment-section">
       <div class="book-an-appointment-pictures-sub-section">
         <div class="container">
           <div class="card card-one"></div>
@@ -216,14 +219,27 @@
         <div class="book-an-appointment-text-container">
           <h2 class="contact-me-text contact-me-title">Contact me</h2>
           <p class="contact-me-text contact-me-text-text">
-            You can email me at glmvb261@gmail.com or call me on 07 835185088.
+            You can email me at aledlewiswork@gmail.com or call me on 07
+            936983043.
           </p>
           <p class="contact-me-text contact-me-text-text">
             You can also click on the buttons below to do either.
           </p>
           <div class="book-an-appointment-button-container">
-            <button class="book-an-appointment-button">Email</button>
-            <button class="book-an-appointment-button">Mobile</button>
+            <button
+              class="book-an-appointment-button"
+              onclick="location.href='mailto:Aledlewiswork@gmail.com'"
+              type="button"
+            >
+              Email
+            </button>
+            <button
+              class="book-an-appointment-button"
+              onclick="location.href='tel:07936983043'"
+              type="button"
+            >
+              Mobile
+            </button>
           </div>
         </div>
       </div>

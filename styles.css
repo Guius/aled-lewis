@@ -14,3 +14,7 @@ p,
 q {
   font-size: 23px;
 }
+
+html {
+  scroll-behavior: smooth;
+}

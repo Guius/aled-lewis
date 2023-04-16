@@ -25,6 +25,7 @@ q {
   height: 90vh;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  min-height: fit-content;
 }
 
 .book-an-appointment-pictures-sub-section {
@@ -66,7 +67,7 @@ q {
 
 .card-one {
   /* The image used */
-  background-image: url("./../assets/img/boiler-1.jpeg");
+  background-image: url("./../assets/img/boiler-3.jpeg");
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -89,7 +90,7 @@ q {
 
 .card-three {
   /* The image used */
-  background-image: url("./../assets/img/boiler-3.jpeg");
+  background-image: url("./../assets/img/boiler-4.jpeg");
 
   /* Full height */
   height: 100%;
@@ -102,7 +103,7 @@ q {
 
 .card-four {
   /* The image used */
-  background-image: url("./../assets/img/boiler-4.jpeg");
+  background-image: url("./../assets/img/first-boiler.jpg");
 
   /* Full height */
   height: 100%;
