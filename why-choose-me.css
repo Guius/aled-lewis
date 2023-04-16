@@ -70,7 +70,7 @@ q {
     height: fit-content;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
-    padding: 180px 0;
+    padding: 50px 0;
   }
 
   .why-choose-me-text-sub-section {

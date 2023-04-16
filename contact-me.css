@@ -244,6 +244,6 @@ q {
 @media (orientation: portrait) {
   .book-an-appointment-section {
     height: fit-content;
-    padding: 180px 20px;
+    padding: 50px 20px;
   }
 }
